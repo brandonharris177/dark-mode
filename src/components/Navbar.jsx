@@ -12,8 +12,8 @@ const Navbar = () => {
       <h1>Crypto Tracker</h1>
       <div className="dark-mode__toggle">
         <div
-          onClick={toggleMode}
-          className={darkMode ? 'toggle toggled' : 'toggle'}
+          onClick={toggleMode}//flips the switch
+          className={darkMode ? 'toggle toggled' : 'toggle'}//if dark mode is on turn it off its its off turn it on
         />
       </div>
     </nav>
